@@ -16,7 +16,7 @@ export class GetWeatherProvider {
 
 
   constructor(public http: HttpClient) {
-    console.log('Hello GetWeatherProvider Provider');
+    // console.log('Hello GetWeatherProvider Provider');
     this.URL = 'http://api.openweathermap.org/data/2.5/weather?q=';
   }
 

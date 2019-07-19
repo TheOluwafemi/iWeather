@@ -35,7 +35,7 @@ export class HomePage {
       }
     
       this.getWeatherService.getCurrentWeather(this.location.city, this.location.country).subscribe(weather => {
-          console.log(weather);
+          // console.log(weather);
           this.weather = weather; 
       });
     });

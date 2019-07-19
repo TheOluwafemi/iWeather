@@ -40,7 +40,7 @@ export class SettingsPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SettingsPage');
+    // console.log('ionViewDidLoad SettingsPage');
   }
 
   saveForm(){
@@ -50,6 +50,6 @@ export class SettingsPage {
     }
     this.storage.set('location', JSON.stringify(location));
     this.navCtrl.push(HomePage);
-    console.log(location);
+    // console.log(location);
   }
 }
