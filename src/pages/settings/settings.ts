@@ -32,11 +32,11 @@ export class SettingsPage {
         this.city = location.city;
         this.country = location.country;
       } else {
-        this.city = 'London';
-        this.country = 'uk';
+        this.city = 'Lagos';
+        this.country = 'ng';
       }
     });
-    this.country = 'uk';
+    this.country = 'ng';
   }
 
   ionViewDidLoad() {

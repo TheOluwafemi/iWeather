@@ -13,6 +13,8 @@ import { SettingsPage } from '../pages/settings/settings';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { GetWeatherProvider } from '../providers/get-weather/get-weather';
+import { SettingsPageModule } from '../pages/settings/settings.module';
+import { ContactPage } from '../pages/contact/contact';
 
 @NgModule({
   declarations: [
@@ -20,10 +22,11 @@ import { GetWeatherProvider } from '../providers/get-weather/get-weather';
     AboutPage,
     HomePage,
     TabsPage,
-    SettingsPage
+    ContactPage
   ],
   imports: [
     BrowserModule,
+    SettingsPageModule,
     IonicModule.forRoot(MyApp),
     HttpClientModule,
     IonicStorageModule.forRoot()
